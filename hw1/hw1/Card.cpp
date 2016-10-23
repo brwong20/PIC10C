@@ -113,8 +113,6 @@ string Card::get_spanish_rank() const {
     return rankName;
 }
 
-
-
 // Accessor: returns a string with the suit of the card in English
 string Card::get_english_suit() const {
     string rankName;
@@ -133,11 +131,9 @@ string Card::get_english_suit() const {
             break;
         default: break;
     }
-    return suitName;
+    return rankName;
 }
 
-
-enum suit_t {OROS, COPAS, ESPADAS, BASTOS};
 
 // Accessor: returns a string with the rank of the card in English
 string Card::get_english_rank() const {
@@ -157,7 +153,7 @@ string Card::get_english_rank() const {
             break;
         default: break;
     }
-    return suitName;
+    return rankName;
 }
 
 
