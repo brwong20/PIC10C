@@ -1,4 +1,4 @@
-#H1 Assignment 1 - 'Siete y Medio'
+#Assignment 1 - 'Siete y Medio'
 
 
 Descrption
