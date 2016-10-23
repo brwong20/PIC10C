@@ -9,7 +9,7 @@ with classic poker cards and trying to get as close to 21 as possible, you play 
 'Spanish Baraja'
 ---------------
 
-![Spanish Baraja] (https://ccle.ucla.edu/pluginfile.php/1535784/mod_assign/intro/naipes.png)
+![Spanish Baraja] (http://2.bp.blogspot.com/-ZlIPsENd5to/UDZQkvWZMVI/AAAAAAAABbo/UftGW0HThBc/s1600/1BARAJA11.png)
 
 Game Mechanics
 --------------
