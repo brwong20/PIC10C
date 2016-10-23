@@ -167,7 +167,7 @@ int Card::get_rank() const {
 // Comparison operator for cards
 // Returns TRUE if card1 < card2
 bool Card::operator < (Card card2) const {
-    return rank > card2.rank;
+    return rank < card2.rank;
 }
 
 
