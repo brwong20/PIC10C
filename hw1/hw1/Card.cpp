@@ -117,7 +117,7 @@ string Card::get_spanish_rank() const {
 
 // Accessor: returns a string with the suit of the card in English
 string Card::get_english_suit() const {
-    string suitName;
+    string rankName;
     switch (suit) {
         case OROS:
             rankName = "Golds";
@@ -141,7 +141,7 @@ enum suit_t {OROS, COPAS, ESPADAS, BASTOS};
 
 // Accessor: returns a string with the rank of the card in English
 string Card::get_english_rank() const {
-    string suitName;
+    string rankName;
     switch (suit) {
         case OROS:
             rankName = "As";
