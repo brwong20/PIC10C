@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A03685891DBC425600959060 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A03685881DBC425600959060 /* main.cpp */; };
-		A03685911DBC42D100959060 /* Cards.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A03685901DBC42D100959060 /* Cards.cpp */; };
-		A03685941DBC430500959060 /* Hand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A03685921DBC430500959060 /* Hand.cpp */; };
-		A03685971DBC431F00959060 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A03685961DBC431F00959060 /* Player.cpp */; };
+		A03685911DBC42D100959060 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A03685901DBC42D100959060 /* Card.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,12 +26,8 @@
 /* Begin PBXFileReference section */
 		A03685851DBC425600959060 /* hw1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hw1; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03685881DBC425600959060 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		A036858F1DBC42C500959060 /* Cards.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cards.h; sourceTree = "<group>"; };
-		A03685901DBC42D100959060 /* Cards.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cards.cpp; sourceTree = "<group>"; };
-		A03685921DBC430500959060 /* Hand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hand.cpp; sourceTree = "<group>"; };
-		A03685931DBC430500959060 /* Hand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hand.h; sourceTree = "<group>"; };
-		A03685951DBC431300959060 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
-		A03685961DBC431F00959060 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		A036858F1DBC42C500959060 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		A03685901DBC42D100959060 /* Card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,15 +60,27 @@
 		A03685871DBC425600959060 /* hw1 */ = {
 			isa = PBXGroup;
 			children = (
+				A03685991DBC44DA00959060 /* Implementation Files */,
+				A03685981DBC44C200959060 /* Header Files */,
 				A03685881DBC425600959060 /* main.cpp */,
-				A036858F1DBC42C500959060 /* Cards.h */,
-				A03685901DBC42D100959060 /* Cards.cpp */,
-				A03685921DBC430500959060 /* Hand.cpp */,
-				A03685931DBC430500959060 /* Hand.h */,
-				A03685951DBC431300959060 /* Player.h */,
-				A03685961DBC431F00959060 /* Player.cpp */,
 			);
 			path = hw1;
+			sourceTree = "<group>";
+		};
+		A03685981DBC44C200959060 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				A036858F1DBC42C500959060 /* Card.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A03685991DBC44DA00959060 /* Implementation Files */ = {
+			isa = PBXGroup;
+			children = (
+				A03685901DBC42D100959060 /* Card.cpp */,
+			);
+			name = "Implementation Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,10 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A03685971DBC431F00959060 /* Player.cpp in Sources */,
-				A03685941DBC430500959060 /* Hand.cpp in Sources */,
 				A03685891DBC425600959060 /* main.cpp in Sources */,
-				A03685911DBC42D100959060 /* Cards.cpp in Sources */,
+				A03685911DBC42D100959060 /* Card.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
